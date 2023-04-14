@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textColor="#0038D5"
+        android:gravity="center"
+        android:id="@+id/mTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome to our website Android" />
+
+
+    <TextView
+        android:gravity="center"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/manu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome to our lucrative adventure to the most respectful app"/>
+
+    <Button
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFEB3B"
+        android:id="@+id/bTnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <Button
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFEB3B"
+        android:id="@+id/bTnReg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+</LinearLayout>
